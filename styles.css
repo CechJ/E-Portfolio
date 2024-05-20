@@ -31,7 +31,7 @@ a {
     transition: opacity 300ms ease;
 }
 
-i:hover {
+a:hover {
     opacity: 0.7;
 
 }
@@ -193,7 +193,7 @@ padding-right: 8.5px;
 
 .about-me__info--title {
     margin-bottom: 16px;
-    animation: fade-up 650 ms 400ms backwards;
+    animation: fade-up 650ms 400ms backwards;
 }
 
 .about-me__info--para {
@@ -253,7 +253,7 @@ padding-right: 8.5px;
     }
 }
 
-@keyframes face-in {
+@keyframes fade-in {
     0% {
         opacity: 0;
     }
@@ -452,14 +452,15 @@ footer {
 /* Small phones, tablets, large smartphones */
  
   @media (max-width:  768px) {
-    nav { height: 68px;
+    nav { 
+    height: 68px;
   }
 
   h1 {
     font-size: 18px;
   }
 
-  .about-me__info--para{
+  .about-me__info--para {
     font-size: 18px;
   }
 
